@@ -6,14 +6,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#ABCDEF"
+    android:background="@drawable/random_number_cube"
     tools:context="com.bederin.randomnumber001.Main">
 
     <TextView
         android:id="@+id/tvNumbers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Пoкa значение отсутствует" />
+        android:layout_marginBottom="50dp"
+        android:text="Пoкa значение отсутствует"
+        android:textSize="20sp"
+        android:textColor="#008000"/>
 
 
     <Button
@@ -21,6 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
         android:text="Haжми дпя создания и показа \n случайноrо числа"
         android:onClick="newNumber"/>
 
@@ -28,5 +32,7 @@
         android:id="@+id/tvSum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Сумма случайных чисел: " />
+        android:text="Сумма случайных чисел: "
+        android:textSize="20sp"
+        android:textColor="#008000"/>
 </LinearLayout>
